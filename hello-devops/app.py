@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     return "Hello, CI/CD!"
 
-    
+
 @app.route('/status')
 def status():
     return "Service is UP"
